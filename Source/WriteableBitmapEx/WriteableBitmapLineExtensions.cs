@@ -611,7 +611,7 @@ namespace System.Windows.Media.Imaging
         public static void DrawLinePenned(BitmapContext context, int w, int h, int x1, int y1, int x2, int y2, BitmapContext pen, Rect? clipRect = null)
         {
             // Edge case where lines that went out of vertical bounds clipped instead of disappearing
-            if((y1 < 0 && y2 < 0) || (y1 > h && y2 > h))
+            if ((y1 < 0 && y2 < 0) || (y1 > h && y2 > h))
                 return;
 
             if (x1 == x2 && y1 == y2)

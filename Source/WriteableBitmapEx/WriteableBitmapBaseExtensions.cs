@@ -29,7 +29,7 @@ namespace System.Windows.Media.Imaging
     /// </summary>
     public
 #if WPF 
-    unsafe 
+    unsafe
 #endif
  static partial class WriteableBitmapExtensions
     {
